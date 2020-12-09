@@ -1,6 +1,4 @@
-input.onSound(DetectedSound.Loud, function () {
+input.onSound(DetectedSound.Quiet, function () {
     basic.showIcon(IconNames.QuarterNote)
-})
-basic.forever(function () {
-	
+    basic.clearScreen()
 })
